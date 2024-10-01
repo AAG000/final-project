@@ -17,7 +17,7 @@ variable "private_subnet_cidrs" {
 # EC2 Instance Configuration
 variable "ami_id" {
   description = "AMI ID for the EC2 instances"
-  default     = "ami-0c55b159cbfafe1f0" # اختر الـ AMI المناسب
+  default     = "ami-0c55b159cbfafe1f0" 
 }
 
 variable "instance_type" {
